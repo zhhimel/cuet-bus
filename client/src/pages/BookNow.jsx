@@ -41,7 +41,7 @@ function BookNow() {
           bus: bus._id,
 
           seats: selectedSeats,
-          cost: selectedSeats.length*100,
+          cost: selectedSeats.length*bus.price,
           transactionId:null,
         }
       );
