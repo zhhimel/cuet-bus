@@ -123,12 +123,7 @@ function DefaultLayout({ children }) {
       </div>
       <div className="w-full">
         <div className="bg-gray-800 flex flex-col justify-start items-center py-2">
-          <img
-            onClick={() => navigate("/")}
-            src={logo}
-            alt="logo"
-            className="w-30 h-20 rounded-full cursor-pointer"
-          />
+         <Link to='/' className="text-white text-xl"> <strong>Teacher's BUS Portal</strong></Link>
           <h1 className="text-white text-base mb-0 p-0 text-center ">
             <Link to='/User'><div className="mt-1">{user?.name} </div></Link>
             <div className="mt-1">{user?.email}</div>

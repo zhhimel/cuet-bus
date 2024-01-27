@@ -54,14 +54,14 @@ function Login() {
           className="hidden lg:flex w-full lg:w-3/4"
           style={{
             backgroundSize: "cover",
-            backgroundImage: `url("https://img5.goodfon.com/wallpaper/nbig/6/6a/temsa-maraton-coach-bus.jpg")`,
+            backgroundImage: `url("images/bus1.jpg")`,
             backgroundPosition: "center center",
             backgroundRepeat: "no-repeat",
           }}
         >
           <div className="flex items-center h-full w-full px-20 bg-gray-900 bg-opacity-40"></div>
         </div>
-        <div className="from-gray-50 to-blue-500 bg-gradient-to-r flex w-full lg:w-1/2 justify-center items-center space-y-8">
+        <div className="from-gray-50 to-green-500 bg-gradient-to-r flex w-full lg:w-1/2 justify-center items-center space-y-8">
           <div className="w-3/4 px-8 md:px-32 lg:px-24">
             <div className="flex flex-col items-center mb-10">
               <Link

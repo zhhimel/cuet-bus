@@ -78,11 +78,7 @@ function Index() {
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md ">
             <div className="flex justify-center">
-              <img
-                className=" text-center w-20 h-20 rounded-full"
-                src={logo}
-                alt="logo"
-              />
+            <Link to='/' className="text-white text-xl"> <strong>Teacher's BUS Portal</strong></Link>
             </div>
 
             <h1 className="mb-5 text-5xl text-white font-bold ">

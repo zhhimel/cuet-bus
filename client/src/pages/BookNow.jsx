@@ -39,7 +39,9 @@ function BookNow() {
         `/api/bookings/book-seat/${localStorage.getItem("user_id")}`,
         {
           bus: bus._id,
+
           seats: selectedSeats,
+          cost: selectedSeats.length*100,
           transactionId:null,
         }
       );

@@ -12,6 +12,10 @@ const bookingSchema = new mongoose.Schema(
       ref: "users",
       require: true,
     },
+    cost:{
+      type: Number,
+      require: true,
+    },
     seats: {
       type: Array,
       require: true,

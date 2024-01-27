@@ -235,7 +235,7 @@ function BusForm({
               />
             </Form.Item>
           </Col>
-          <Col lg={12} xs={24}>
+          {/* <Col lg={12} xs={24}>
             <Form.Item
               label="Status"
               name="status"
@@ -258,7 +258,7 @@ function BusForm({
                 </option>
               </select>
             </Form.Item>
-          </Col>
+          </Col> */}
         </Row>
         <div className="flex justify-end">
           <button

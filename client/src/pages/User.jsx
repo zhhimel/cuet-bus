@@ -6,11 +6,10 @@ import axios from "axios";
 function User() {
   const { user } = useSelector((state) => state.users);
   const [bill, setBill] = useState([]);
- 
   useEffect(() => {
     const fetchUserData = async () => {
       try {
-        const response = await axios.get("api/bookings/get-all-bookings");
+        const response = await axios.get(`api/bookings/${user._id}`);
         setBill(response.data.data);
         
       } catch (error) {
@@ -21,7 +20,7 @@ function User() {
     fetchUserData();
     
   }, []); 
- 
+  console.log(bill)
   return (
     <div className="container mt-5">
       <div className="card">

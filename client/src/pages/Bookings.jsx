@@ -34,6 +34,7 @@ function Bookings() {
           };
         });
         setBookings(mappedData);
+        
       } else {
         message.error(response.data.message);
       }
@@ -42,7 +43,6 @@ function Bookings() {
       message.error(error.message);
     }
   }, [dispatch]);
-
   const CancelBooking = async () => {
     try {
       dispatch(ShowLoading());
@@ -173,6 +173,7 @@ function Bookings() {
                         <div className="flex items-center justify-between">
                           <div className="flex items-center my-1">
                             <span className="mr-3 rounded-full bg-white w-8 h-8">
+                              <a href=''></a>
                               <img alt="logo" src={logo} className="h-8 p-1" />
                             </span>
                             <h2 className="font-medium">
